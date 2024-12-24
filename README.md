@@ -151,7 +151,7 @@ Environment Variables: Create .env files in both frontend and backend directorie
 **Contact**
 
 - Project Link: [In development]
-- Email: cjmatheka@gmail.com (mailto: cjmatheka@gmail.com)
+- Email: cjmatheka@gmail.com
 
 **Acknowledgements**
 
