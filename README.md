@@ -150,8 +150,8 @@ Environment Variables: Create .env files in both frontend and backend directorie
 
 **Contact**
 
-- Project Link: [Insert Project URL]
-- Email: your-email@example.com (mailto:your-email@example.com)
+- Project Link: [In development]
+- Email: cjmatheka@gmail.com (mailto:cjmatheka@gmail.com)
 
 **Acknowledgements**
 
