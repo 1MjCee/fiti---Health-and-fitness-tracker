@@ -5,12 +5,14 @@ export default function TabLayout() {
   return (
     <Tabs screenOptions={{ tabBarActiveTintColor: "blue" }}>
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
           title: "Home",
           tabBarIcon: ({ color }) => (
             <FontAwesome size={28} name="home" color={color} />
           ),
+          tabBarLabel: () => null,
+          headerShown: false,
         }}
       />
       <Tabs.Screen
@@ -20,6 +22,8 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <FontAwesome size={28} name="cog" color={color} />
           ),
+          tabBarLabel: () => null,
+          headerShown: false,
         }}
       />
       <Tabs.Screen
@@ -27,8 +31,10 @@ export default function TabLayout() {
         options={{
           title: "Account",
           tabBarIcon: ({ color }) => (
-            <FontAwesome size={28} name="cog" color={color} />
+            <FontAwesome size={28} name="user" color={color} />
           ),
+          tabBarLabel: () => null,
+          headerShown: false,
         }}
       />
     </Tabs>
