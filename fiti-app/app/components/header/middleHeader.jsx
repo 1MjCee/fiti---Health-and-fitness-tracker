@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-const midddleHeader = ({ text }) => {
+const MiddleHeader = ({ text }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>{text || "No Content"}</Text>
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default midddleHeader;
+export default MiddleHeader;

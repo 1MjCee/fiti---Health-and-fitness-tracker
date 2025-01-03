@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Image, StyleSheet } from "react-native";
 
-const rightHeader = ({ image }) => {
+const RightHeader = ({ image }) => {
   const defaultImage = "https://via.placeholder.com/150";
 
   return (
@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default rightHeader;
+export default RightHeader;
